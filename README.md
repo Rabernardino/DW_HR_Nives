@@ -32,29 +32,4 @@ A arquitetura do projeto segue um padrão de **ELT (Extract, Load, Transform)**,
 
 ---
 
-## 📁 Estrutura do Projeto
-
-A organização do projeto segue as melhores práticas para pipelines de dados e desenvolvimento de software:
-.
-├── .dbt/
-│   ├── dbt_project.yml     
-│   ├── models/
-│   │   ├── bronze/
-│   │   ├── silver/
-│   │   ├── gold/
-│   │   └── source.yml          
-│   └── 
-├── .airflow/
-│   ├── config/
-│   ├── dags/
-│   │   ├── etl_transfer_to_stage.py       
-│   └── plugins/
-├── .env
-├── .gitignore                  
-├── .python-version
-├── docker-compose.yaml
-├── README.md                   
-├── poetry.lock
-└── pyproject.toml
-
 
