@@ -22,8 +22,10 @@ A arquitetura do projeto segue um padrão de **ELT (Extract, Load, Transform)**,
 
 ### Diagrama da Arquitetura
 
+#### Snowflake
 ![Snowflake](assets/snowflake.png)
 
+#### Dbt
 ![Dbt](assets/dbt_1.png)
 
 ![Dbt](assets/dbt_2.png)
