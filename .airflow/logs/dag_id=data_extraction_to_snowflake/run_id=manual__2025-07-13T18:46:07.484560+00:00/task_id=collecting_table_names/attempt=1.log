@@ -1,0 +1,27 @@
+[2025-07-13T18:46:08.720+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_extraction_to_snowflake.collecting_table_names manual__2025-07-13T18:46:07.484560+00:00 [queued]>
+[2025-07-13T18:46:08.723+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_extraction_to_snowflake.collecting_table_names manual__2025-07-13T18:46:07.484560+00:00 [queued]>
+[2025-07-13T18:46:08.723+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T18:46:08.727+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): collecting_table_names> on 2025-07-13 18:46:07.484560+00:00
+[2025-07-13T18:46:08.729+0000] {standard_task_runner.py:60} INFO - Started process 265 to run task
+[2025-07-13T18:46:08.731+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'data_extraction_to_snowflake', 'collecting_table_names', 'manual__2025-07-13T18:46:07.484560+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/etl_transfer_to_stage.py', '--cfg-path', '/tmp/tmp9sz0zqgr']
+[2025-07-13T18:46:08.732+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask collecting_table_names
+[2025-07-13T18:46:08.750+0000] {task_command.py:423} INFO - Running <TaskInstance: data_extraction_to_snowflake.collecting_table_names manual__2025-07-13T18:46:07.484560+00:00 [running]> on host ba480c39b9ec
+[2025-07-13T18:46:08.777+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_extraction_to_snowflake' AIRFLOW_CTX_TASK_ID='collecting_table_names' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T18:46:07.484560+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T18:46:07.484560+00:00'
+[2025-07-13T18:46:08.780+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2025-07-13T18:46:08.799+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_transfer_to_stage.py", line 40, in collecting_table_name_postgres
+    tables = cursor.fetchall()
+psycopg2.InterfaceError: cursor already closed
+[2025-07-13T18:46:08.802+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=data_extraction_to_snowflake, task_id=collecting_table_names, execution_date=20250713T184607, start_date=20250713T184608, end_date=20250713T184608
+[2025-07-13T18:46:08.806+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 19 for task collecting_table_names (cursor already closed; 265)
+[2025-07-13T18:46:08.831+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-13T18:46:08.841+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

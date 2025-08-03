@@ -1,0 +1,19 @@
+__pycache__/
+.pyc
+.pyo
+.pyd
+.Python
+env/
+.venv/
+venv/
+.env                       
+.env.local
+.DS_Store
+.airflow/logs/                # Diretório de logs de execução do Airflow
+.airflow/config/airflow.cfg    # Arquivo de configuração que pode conter caminhos locais ou segredos
+.airflow/dags/*_bkp.py         # Arquivos de backup de DAGs (como sugerido)
+.airflow/plugins/*.pyc  
+.dbt/target/                  # Diretório de compilação do dbt (arquivos .sql e manifest.json)
+.dbt/logs/   
+.dbt/profiles.yml             # Arquivo de credenciais. CRUCIALMENTE, este deve ser ignorado para não expor segredos. Use variáveis de ambiente.
+dbt_packages/         

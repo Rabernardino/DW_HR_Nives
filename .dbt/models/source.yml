@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: sources
+    database: HR_NIVES
+    schema: STAGE
+    tables:
+      - name: raw_contract_type_info
+      - name: raw_employee_info
+      - name: raw_gender_info
+      - name: raw_hiring_events
+      - name: raw_job_info
+      - name: raw_shift_type_info
+      - name: raw_terminations_events
+      - name: raw_termination_reasons_info
+      - name: raw_ethnicity_info
+      - name: raw_pwd_info

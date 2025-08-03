@@ -1,0 +1,14 @@
+[2025-07-13T18:51:54.619+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_extraction_to_snowflake.collecting_table_names manual__2025-07-13T18:51:53.502743+00:00 [queued]>
+[2025-07-13T18:51:54.622+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_extraction_to_snowflake.collecting_table_names manual__2025-07-13T18:51:53.502743+00:00 [queued]>
+[2025-07-13T18:51:54.622+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T18:51:54.626+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): collecting_table_names> on 2025-07-13 18:51:53.502743+00:00
+[2025-07-13T18:51:54.628+0000] {standard_task_runner.py:60} INFO - Started process 406 to run task
+[2025-07-13T18:51:54.630+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'data_extraction_to_snowflake', 'collecting_table_names', 'manual__2025-07-13T18:51:53.502743+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/etl_transfer_to_stage.py', '--cfg-path', '/tmp/tmpwf48r331']
+[2025-07-13T18:51:54.631+0000] {standard_task_runner.py:88} INFO - Job 37: Subtask collecting_table_names
+[2025-07-13T18:51:54.647+0000] {task_command.py:423} INFO - Running <TaskInstance: data_extraction_to_snowflake.collecting_table_names manual__2025-07-13T18:51:53.502743+00:00 [running]> on host ba480c39b9ec
+[2025-07-13T18:51:54.672+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_extraction_to_snowflake' AIRFLOW_CTX_TASK_ID='collecting_table_names' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T18:51:53.502743+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T18:51:53.502743+00:00'
+[2025-07-13T18:51:54.675+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2025-07-13T18:51:54.694+0000] {python.py:201} INFO - Done. Returned value was: ['job_info', 'contract_type_info', 'shift_type_info', 'termination_reasons_info', 'employee_info', 'hiring_events', 'terminations_events']
+[2025-07-13T18:51:54.703+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=data_extraction_to_snowflake, task_id=collecting_table_names, execution_date=20250713T185153, start_date=20250713T185154, end_date=20250713T185154
+[2025-07-13T18:51:54.728+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-13T18:51:54.754+0000] {taskinstance.py:3280} INFO - 7 downstream tasks scheduled from follow-on schedule check

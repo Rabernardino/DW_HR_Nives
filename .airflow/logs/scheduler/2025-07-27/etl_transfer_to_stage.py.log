@@ -1,0 +1,1141 @@
+[2025-07-27T14:18:30.329+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:18:30.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:18:30.332+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:18:30.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:18:30.342+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:18:30.414+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:18:30.413+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:18:30.425+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:18:30.425+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:18:30.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.109 seconds
+[2025-07-27T14:19:00.643+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:19:00.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:19:00.648+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:19:00.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:19:00.661+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:19:00.687+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:19:00.687+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:19:00.700+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:19:00.700+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:19:00.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.070 seconds
+[2025-07-27T14:19:30.900+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:19:30.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:19:30.903+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:19:30.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:19:30.909+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:19:30.923+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:19:30.923+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:19:30.933+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:19:30.933+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:19:30.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.042 seconds
+[2025-07-27T14:20:01.184+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:20:01.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:20:01.186+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:20:01.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:20:01.191+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:20:01.202+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:20:01.202+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:20:01.211+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:20:01.211+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:20:01.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.035 seconds
+[2025-07-27T14:20:31.471+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:20:31.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:20:31.474+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:20:31.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:20:31.482+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:20:31.499+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:20:31.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:20:31.509+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:20:31.509+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:20:31.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:21:01.716+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:21:01.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:21:01.719+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:21:01.719+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:21:01.728+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:21:01.745+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:21:01.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:21:01.757+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:21:01.756+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:21:01.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T14:21:32.004+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:21:32.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:21:32.009+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:21:32.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:21:32.016+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:21:32.033+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:21:32.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:21:32.043+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:21:32.043+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:21:32.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:22:02.299+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:22:02.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:22:02.303+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:22:02.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:22:02.315+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:22:02.333+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:22:02.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:22:02.345+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:22:02.344+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:22:02.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.058 seconds
+[2025-07-27T14:22:32.584+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:22:32.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:22:32.587+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:22:32.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:22:32.596+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:22:32.613+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:22:32.613+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:22:32.624+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:22:32.624+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:22:32.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:23:02.829+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:23:02.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:23:02.836+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:23:02.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:23:02.843+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:23:02.856+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:23:02.856+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:23:02.866+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:23:02.866+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:23:02.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T14:23:33.123+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:23:33.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:23:33.126+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:23:33.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:23:33.132+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:23:33.146+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:23:33.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:23:33.155+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:23:33.155+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:23:33.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.041 seconds
+[2025-07-27T14:24:03.430+0000] {processor.py:161} INFO - Started process (PID=157) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:24:03.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:24:03.434+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:24:03.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:24:03.442+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:24:03.459+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:24:03.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:24:03.470+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:24:03.470+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:24:03.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:24:33.771+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:24:33.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:24:33.786+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:24:33.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:24:33.837+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:24:33.934+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:24:33.933+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:24:33.989+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:24:33.989+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:24:34.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.253 seconds
+[2025-07-27T14:25:04.210+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:25:04.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:25:04.215+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:25:04.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:25:04.224+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:25:04.242+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:25:04.241+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:25:04.253+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:25:04.253+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:25:04.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.054 seconds
+[2025-07-27T14:25:34.453+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:25:34.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:25:34.458+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:25:34.457+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:25:34.472+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:25:34.497+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:25:34.497+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:25:34.513+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:25:34.513+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:25:34.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.075 seconds
+[2025-07-27T14:26:04.711+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:26:04.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:26:04.715+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:26:04.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:26:04.722+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:26:04.738+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:26:04.738+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:26:04.749+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:26:04.749+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:26:04.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.055 seconds
+[2025-07-27T14:26:34.960+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:26:34.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:26:34.964+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:26:34.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:26:34.974+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:26:34.993+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:26:34.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:26:35.005+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:26:35.004+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:26:35.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.056 seconds
+[2025-07-27T14:27:05.227+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:27:05.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:27:05.231+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:27:05.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:27:05.241+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:27:05.259+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:27:05.259+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:27:05.270+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:27:05.270+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:27:05.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.057 seconds
+[2025-07-27T14:27:35.480+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:27:35.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:27:35.483+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:27:35.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:27:35.491+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:27:35.506+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:27:35.506+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:27:35.517+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:27:35.516+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:27:35.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:28:05.722+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:28:05.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:28:05.723+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:28:05.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:28:05.729+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:28:05.742+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:28:05.742+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:28:05.752+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:28:05.752+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:28:05.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.040 seconds
+[2025-07-27T14:28:35.987+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:28:35.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:28:35.989+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:28:35.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:28:35.996+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:28:36.010+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:28:36.009+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:28:36.020+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:28:36.020+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:28:36.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.043 seconds
+[2025-07-27T14:29:06.248+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:29:06.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:29:06.251+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:29:06.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:29:06.258+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:29:06.273+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:29:06.272+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:29:06.283+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:29:06.283+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:29:06.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T14:29:36.522+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:29:36.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:29:36.525+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:29:36.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:29:36.533+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:29:36.551+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:29:36.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:29:36.562+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:29:36.562+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:29:36.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:30:06.736+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:06.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:30:06.738+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:06.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:06.746+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:06.767+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:06.767+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:30:06.780+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:06.780+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:30:06.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.055 seconds
+[2025-07-27T14:30:36.984+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:36.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:30:36.986+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:36.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:36.993+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:37.007+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:37.007+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:30:37.018+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:37.018+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:30:37.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T14:30:44.048+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:44.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:30:44.052+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:44.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:44.063+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:30:44.081+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:44.080+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:30:44.091+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:30:44.091+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:30:44.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.055 seconds
+[2025-07-27T14:31:14.353+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:31:14.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:31:14.356+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:31:14.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:31:14.365+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:31:14.425+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:31:14.425+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:31:14.450+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:31:14.449+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:31:14.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.118 seconds
+[2025-07-27T14:31:44.627+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:31:44.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:31:44.634+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:31:44.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:31:44.648+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:31:44.667+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:31:44.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:31:44.680+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:31:44.680+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:31:44.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.066 seconds
+[2025-07-27T14:32:14.944+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:32:14.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:32:14.949+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:32:14.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:32:14.957+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:32:14.975+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:32:14.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:32:14.985+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:32:14.984+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:32:14.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T14:32:45.192+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:32:45.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:32:45.197+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:32:45.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:32:45.205+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:32:45.221+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:32:45.221+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:32:45.232+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:32:45.232+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:32:45.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:33:15.435+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:33:15.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:33:15.437+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:33:15.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:33:15.442+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:33:15.456+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:33:15.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:33:15.465+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:33:15.465+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:33:15.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.039 seconds
+[2025-07-27T14:33:45.726+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:33:45.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:33:45.729+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:33:45.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:33:45.735+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:33:45.752+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:33:45.751+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:33:45.763+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:33:45.763+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:33:45.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:34:15.997+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:34:15.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:34:16.001+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:34:16.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:34:16.010+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:34:16.029+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:34:16.029+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:34:16.039+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:34:16.039+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:34:16.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.054 seconds
+[2025-07-27T14:34:46.244+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:34:46.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:34:46.248+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:34:46.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:34:46.256+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:34:46.275+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:34:46.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:34:46.286+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:34:46.286+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:34:46.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.054 seconds
+[2025-07-27T14:35:16.520+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:35:16.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:35:16.526+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:35:16.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:35:16.540+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:35:16.561+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:35:16.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:35:16.573+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:35:16.573+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:35:16.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.066 seconds
+[2025-07-27T14:35:46.785+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:35:46.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:35:46.789+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:35:46.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:35:46.797+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:35:46.813+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:35:46.813+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:35:46.823+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:35:46.823+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:35:46.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:36:17.087+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:36:17.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:36:17.091+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:36:17.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:36:17.099+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:36:17.115+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:36:17.115+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:36:17.126+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:36:17.126+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:36:17.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:36:47.349+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:36:47.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:36:47.351+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:36:47.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:36:47.356+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:36:47.367+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:36:47.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:36:47.376+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:36:47.376+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:36:47.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.036 seconds
+[2025-07-27T14:37:17.639+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:37:17.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:37:17.643+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:37:17.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:37:17.658+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:37:17.681+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:37:17.681+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:37:17.692+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:37:17.691+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:37:17.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.063 seconds
+[2025-07-27T14:37:47.936+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:37:47.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:37:47.940+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:37:47.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:37:47.948+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:37:47.964+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:37:47.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:37:47.974+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:37:47.974+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:37:47.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:38:18.191+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:38:18.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:38:18.196+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:38:18.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:38:18.209+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:38:18.235+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:38:18.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:38:18.247+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:38:18.247+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:38:18.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.069 seconds
+[2025-07-27T14:38:48.513+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:38:48.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:38:48.517+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:38:48.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:38:48.526+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:38:48.543+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:38:48.543+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:38:48.555+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:38:48.555+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:38:48.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T14:39:18.786+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:39:18.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:39:18.790+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:39:18.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:39:18.799+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:39:18.815+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:39:18.815+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:39:18.825+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:39:18.825+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:39:18.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:39:49.058+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:39:49.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:39:49.061+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:39:49.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:39:49.068+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:39:49.084+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:39:49.084+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:39:49.094+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:39:49.094+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:39:49.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T14:40:19.341+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:40:19.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:40:19.348+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:40:19.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:40:19.359+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:40:19.377+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:40:19.377+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:40:19.387+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:40:19.387+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:40:19.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.066 seconds
+[2025-07-27T14:40:49.600+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:40:49.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:40:49.604+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:40:49.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:40:49.614+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:40:49.643+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:40:49.642+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:40:49.661+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:40:49.661+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:40:49.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.073 seconds
+[2025-07-27T14:41:19.916+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:41:19.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:41:19.920+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:41:19.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:41:19.929+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:41:19.946+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:41:19.946+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:41:19.956+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:41:19.956+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:41:19.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:41:50.224+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:41:50.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:41:50.228+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:41:50.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:41:50.236+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:41:50.253+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:41:50.253+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:41:50.263+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:41:50.263+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:41:50.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:42:20.524+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:42:20.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:42:20.529+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:42:20.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:42:20.537+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:42:20.554+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:42:20.554+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:42:20.564+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:42:20.564+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:42:20.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T14:42:50.779+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:42:50.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:42:50.782+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:42:50.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:42:50.791+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:42:50.805+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:42:50.805+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:42:50.816+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:42:50.816+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:42:50.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:43:20.993+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:43:20.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:43:20.995+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:43:20.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:43:21.001+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:43:21.015+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:43:21.015+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:43:21.025+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:43:21.025+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:43:21.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.042 seconds
+[2025-07-27T14:43:51.205+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:43:51.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:43:51.207+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:43:51.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:43:51.213+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:43:51.226+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:43:51.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:43:51.236+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:43:51.236+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:43:51.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.040 seconds
+[2025-07-27T14:44:21.408+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:44:21.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:44:21.410+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:44:21.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:44:21.414+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:44:21.426+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:44:21.426+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:44:21.434+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:44:21.434+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:44:21.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.035 seconds
+[2025-07-27T14:44:51.667+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:44:51.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:44:51.670+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:44:51.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:44:51.680+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:44:51.697+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:44:51.696+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:44:51.708+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:44:51.708+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:44:51.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T14:45:21.925+0000] {processor.py:161} INFO - Started process (PID=482) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:45:21.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:45:21.929+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:45:21.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:45:21.936+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:45:21.951+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:45:21.951+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:45:21.961+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:45:21.961+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:45:21.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.046 seconds
+[2025-07-27T14:45:52.188+0000] {processor.py:161} INFO - Started process (PID=489) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:45:52.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:45:52.190+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:45:52.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:45:52.195+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:45:52.207+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:45:52.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:45:52.215+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:45:52.215+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:45:52.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.035 seconds
+[2025-07-27T14:46:22.446+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:46:22.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:46:22.449+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:46:22.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:46:22.456+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:46:22.472+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:46:22.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:46:22.484+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:46:22.484+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:46:22.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:46:52.752+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:46:52.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:46:52.754+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:46:52.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:46:52.758+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:46:52.769+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:46:52.769+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:46:52.778+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:46:52.778+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:46:52.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.034 seconds
+[2025-07-27T14:47:23.166+0000] {processor.py:161} INFO - Started process (PID=510) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:47:23.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:47:23.168+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:47:23.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:47:23.173+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:47:23.185+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:47:23.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:47:23.194+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:47:23.194+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:47:23.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.036 seconds
+[2025-07-27T14:47:53.446+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:47:53.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:47:53.450+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:47:53.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:47:53.458+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:47:53.476+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:47:53.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:47:53.487+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:47:53.487+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:47:53.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:48:23.721+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:48:23.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:48:23.725+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:48:23.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:48:23.734+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:48:23.752+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:48:23.751+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:48:23.762+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:48:23.762+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:48:23.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:48:54.062+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:48:54.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:48:54.065+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:48:54.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:48:54.074+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:48:54.092+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:48:54.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:48:54.103+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:48:54.103+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:48:54.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T14:49:24.366+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:49:24.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:49:24.371+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:49:24.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:49:24.380+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:49:24.399+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:49:24.398+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:49:24.409+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:49:24.409+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:49:24.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.054 seconds
+[2025-07-27T14:49:54.704+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:49:54.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:49:54.709+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:49:54.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:49:54.722+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:49:54.740+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:49:54.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:49:54.751+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:49:54.751+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:49:54.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.060 seconds
+[2025-07-27T14:50:25.006+0000] {processor.py:161} INFO - Started process (PID=551) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:50:25.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:50:25.009+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:50:25.009+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:50:25.018+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:50:25.038+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:50:25.037+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:50:25.049+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:50:25.049+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:50:25.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.056 seconds
+[2025-07-27T14:50:55.243+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:50:55.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:50:55.246+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:50:55.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:50:55.254+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:50:55.272+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:50:55.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:50:55.282+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:50:55.282+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:50:55.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:51:25.502+0000] {processor.py:161} INFO - Started process (PID=565) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:51:25.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:51:25.506+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:51:25.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:51:25.515+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:51:25.530+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:51:25.530+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:51:25.540+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:51:25.540+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:51:25.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T14:51:55.785+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:51:55.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:51:55.788+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:51:55.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:51:55.797+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:51:55.817+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:51:55.816+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:51:55.830+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:51:55.829+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:51:55.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.057 seconds
+[2025-07-27T14:52:26.139+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:52:26.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:52:26.142+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:52:26.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:52:26.150+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:52:26.166+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:52:26.166+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:52:26.177+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:52:26.177+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:52:26.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:52:56.463+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:52:56.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:52:56.466+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:52:56.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:52:56.473+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:52:56.490+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:52:56.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:52:56.500+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:52:56.500+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:52:56.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T14:53:26.770+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:53:26.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:53:26.773+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:53:26.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:53:26.782+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:53:26.799+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:53:26.798+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:53:26.810+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:53:26.810+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:53:26.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T14:53:57.111+0000] {processor.py:161} INFO - Started process (PID=600) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:53:57.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:53:57.114+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:53:57.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:53:57.122+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:53:57.138+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:53:57.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:53:57.148+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:53:57.148+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:53:57.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.046 seconds
+[2025-07-27T14:54:27.433+0000] {processor.py:161} INFO - Started process (PID=607) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:54:27.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:54:27.436+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:54:27.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:54:27.445+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:54:27.462+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:54:27.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:54:27.472+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:54:27.472+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:54:27.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:54:57.743+0000] {processor.py:161} INFO - Started process (PID=614) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:54:57.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:54:57.745+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:54:57.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:54:57.751+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:54:57.764+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:54:57.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:54:57.774+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:54:57.774+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:54:57.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.041 seconds
+[2025-07-27T14:55:28.072+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:55:28.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:55:28.075+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:55:28.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:55:28.084+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:55:28.100+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:55:28.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:55:28.110+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:55:28.110+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:55:28.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T14:55:58.384+0000] {processor.py:161} INFO - Started process (PID=628) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:55:58.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:55:58.386+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:55:58.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:55:58.394+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:55:58.409+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:55:58.409+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:55:58.419+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:55:58.419+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:55:58.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T14:56:28.681+0000] {processor.py:161} INFO - Started process (PID=635) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:56:28.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:56:28.685+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:56:28.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:56:28.692+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:56:28.707+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:56:28.707+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:56:28.718+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:56:28.718+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:56:28.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T14:56:58.939+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:56:58.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:56:58.941+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:56:58.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:56:58.947+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:56:58.960+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:56:58.960+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:56:58.970+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:56:58.970+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:56:58.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.041 seconds
+[2025-07-27T14:57:29.370+0000] {processor.py:161} INFO - Started process (PID=649) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:57:29.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:57:29.375+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:57:29.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:57:29.386+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:57:29.404+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:57:29.404+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:57:29.415+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:57:29.415+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:57:29.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.056 seconds
+[2025-07-27T14:57:59.735+0000] {processor.py:161} INFO - Started process (PID=656) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:57:59.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:57:59.739+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:57:59.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:57:59.748+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:57:59.765+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:57:59.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:57:59.774+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:57:59.774+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:57:59.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T14:58:30.098+0000] {processor.py:161} INFO - Started process (PID=663) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:58:30.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:58:30.104+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:58:30.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:58:30.119+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:58:30.144+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:58:30.143+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:58:30.159+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:58:30.159+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:58:30.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.076 seconds
+[2025-07-27T14:59:00.254+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:59:00.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:59:00.260+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:59:00.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:59:00.271+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:59:00.293+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:59:00.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:59:00.305+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:59:00.305+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:59:00.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.066 seconds
+[2025-07-27T14:59:30.547+0000] {processor.py:161} INFO - Started process (PID=677) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:59:30.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T14:59:30.550+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:59:30.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:59:30.557+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T14:59:30.574+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:59:30.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T14:59:30.584+0000] {logging_mixin.py:188} INFO - [2025-07-27T14:59:30.584+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T14:59:30.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:00:00.934+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:00:00.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:00:00.938+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:00:00.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:00:00.947+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:00:00.964+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:00:00.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:00:00.974+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:00:00.974+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:00:00.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T15:00:48.129+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:00:48.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:00:48.134+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:00:48.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:00:48.145+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:00:48.168+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:00:48.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:00:48.182+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:00:48.182+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:00:48.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.066 seconds
+[2025-07-27T15:01:18.431+0000] {processor.py:161} INFO - Started process (PID=692) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:01:18.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:01:18.432+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:01:18.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:01:18.437+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:01:18.449+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:01:18.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:01:18.458+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:01:18.458+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:01:18.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.036 seconds
+[2025-07-27T15:01:48.834+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:01:48.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:01:48.839+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:01:48.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:01:48.852+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:01:48.872+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:01:48.871+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:01:48.885+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:01:48.884+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:01:48.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.064 seconds
+[2025-07-27T15:02:19.139+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:02:19.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:02:19.143+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:02:19.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:02:19.153+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:02:19.172+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:02:19.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:02:19.185+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:02:19.185+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:02:19.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.057 seconds
+[2025-07-27T15:02:49.433+0000] {processor.py:161} INFO - Started process (PID=713) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:02:49.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:02:49.437+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:02:49.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:02:49.444+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:02:49.461+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:02:49.460+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:02:49.472+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:02:49.472+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:02:49.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:03:19.743+0000] {processor.py:161} INFO - Started process (PID=725) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:03:19.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:03:19.744+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:03:19.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:03:19.750+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:03:19.762+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:03:19.762+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:03:19.771+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:03:19.771+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:03:19.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.038 seconds
+[2025-07-27T15:03:50.053+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:03:50.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:03:50.056+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:03:50.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:03:50.064+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:03:50.082+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:03:50.081+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:03:50.092+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:03:50.092+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:03:50.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:04:20.365+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:04:20.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:04:20.368+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:04:20.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:04:20.377+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:04:20.397+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:04:20.396+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:04:20.407+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:04:20.406+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:04:20.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T15:04:50.675+0000] {processor.py:161} INFO - Started process (PID=744) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:04:50.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:04:50.677+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:04:50.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:04:50.684+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:04:50.698+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:04:50.698+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:04:50.707+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:04:50.707+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:04:50.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.042 seconds
+[2025-07-27T15:05:20.964+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:05:20.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:05:20.967+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:05:20.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:05:20.974+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:05:20.988+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:05:20.987+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:05:20.998+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:05:20.998+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:05:21.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.046 seconds
+[2025-07-27T15:05:51.273+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:05:51.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:05:51.275+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:05:51.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:05:51.282+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:05:51.297+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:05:51.296+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:05:51.306+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:05:51.306+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:05:51.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.044 seconds
+[2025-07-27T15:06:21.594+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:06:21.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:06:21.597+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:06:21.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:06:21.605+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:06:21.621+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:06:21.621+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:06:21.631+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:06:21.631+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:06:21.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:06:51.838+0000] {processor.py:161} INFO - Started process (PID=772) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:06:51.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:06:51.841+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:06:51.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:06:51.848+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:06:51.863+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:06:51.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:06:51.873+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:06:51.873+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:06:51.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T15:07:22.209+0000] {processor.py:161} INFO - Started process (PID=779) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:07:22.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:07:22.212+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:07:22.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:07:22.221+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:07:22.237+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:07:22.237+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:07:22.247+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:07:22.247+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:07:22.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T15:07:52.562+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:07:52.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:07:52.567+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:07:52.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:07:52.577+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:07:52.593+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:07:52.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:07:52.604+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:07:52.603+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:07:52.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T15:08:22.916+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:08:22.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:08:22.918+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:08:22.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:08:22.924+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:08:22.938+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:08:22.938+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:08:22.948+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:08:22.948+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:08:22.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.042 seconds
+[2025-07-27T15:09:09.353+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:09:09.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:09:09.358+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:09:09.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:09:09.369+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:09:09.390+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:09:09.390+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:09:09.402+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:09:09.402+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:09:09.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.062 seconds
+[2025-07-27T15:09:39.670+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:09:39.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:09:39.674+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:09:39.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:09:39.683+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:09:39.699+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:09:39.699+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:09:39.709+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:09:39.709+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:09:39.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T15:10:10.031+0000] {processor.py:161} INFO - Started process (PID=808) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:10:10.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:10:10.034+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:10:10.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:10:10.042+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:10:10.060+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:10:10.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:10:10.075+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:10:10.075+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:10:10.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.067 seconds
+[2025-07-27T15:11:00.402+0000] {processor.py:161} INFO - Started process (PID=815) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:11:00.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:11:00.406+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:11:00.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:11:00.414+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:11:00.433+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:11:00.433+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:11:00.445+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:11:00.445+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:11:00.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.055 seconds
+[2025-07-27T15:11:30.691+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:11:30.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:11:30.694+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:11:30.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:11:30.703+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:11:30.719+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:11:30.719+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:11:30.731+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:11:30.730+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:11:30.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T15:12:00.951+0000] {processor.py:161} INFO - Started process (PID=829) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:12:00.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:12:00.952+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:12:00.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:12:00.956+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:12:00.970+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:12:00.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:12:00.982+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:12:00.982+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:12:00.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.040 seconds
+[2025-07-27T15:12:31.245+0000] {processor.py:161} INFO - Started process (PID=836) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:12:31.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:12:31.248+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:12:31.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:12:31.255+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:12:31.271+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:12:31.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:12:31.281+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:12:31.281+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:12:31.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T15:13:01.515+0000] {processor.py:161} INFO - Started process (PID=843) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:13:01.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:13:01.518+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:13:01.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:13:01.524+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:13:01.536+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:13:01.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:13:01.546+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:13:01.546+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:13:01.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.040 seconds
+[2025-07-27T15:13:31.799+0000] {processor.py:161} INFO - Started process (PID=850) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:13:31.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:13:31.803+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:13:31.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:13:31.812+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:13:31.830+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:13:31.830+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:13:31.841+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:13:31.840+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:13:31.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T15:14:02.099+0000] {processor.py:161} INFO - Started process (PID=857) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:14:02.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:14:02.102+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:14:02.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:14:02.110+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:14:02.127+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:14:02.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:14:02.137+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:14:02.136+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:14:02.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:14:32.409+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:14:32.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:14:32.412+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:14:32.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:14:32.420+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:14:32.436+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:14:32.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:14:32.446+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:14:32.446+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:14:32.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:15:02.703+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:15:02.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:15:02.706+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:15:02.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:15:02.715+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:15:02.732+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:15:02.732+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:15:02.743+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:15:02.743+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:15:02.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T15:15:32.994+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:15:32.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:15:32.997+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:15:32.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:15:33.005+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:15:33.021+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:15:33.021+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:15:33.031+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:15:33.031+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:15:33.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:16:03.281+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:16:03.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:16:03.284+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:16:03.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:16:03.292+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:16:03.310+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:16:03.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:16:03.323+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:16:03.323+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:16:03.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.054 seconds
+[2025-07-27T15:16:33.598+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:16:33.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:16:33.601+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:16:33.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:16:33.610+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:16:33.629+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:16:33.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:16:33.640+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:16:33.640+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:16:33.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.055 seconds
+[2025-07-27T15:17:22.354+0000] {processor.py:161} INFO - Started process (PID=898) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:17:22.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:17:22.359+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:17:22.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:17:22.371+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:17:22.394+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:17:22.393+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:17:22.412+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:17:22.412+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:17:22.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.074 seconds
+[2025-07-27T15:17:52.688+0000] {processor.py:161} INFO - Started process (PID=905) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:17:52.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:17:52.692+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:17:52.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:17:52.700+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:17:52.718+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:17:52.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:17:52.729+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:17:52.729+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:17:52.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T15:18:23.012+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:18:23.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:18:23.015+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:18:23.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:18:23.023+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:18:23.039+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:18:23.039+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:18:23.050+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:18:23.050+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:18:23.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:18:53.629+0000] {processor.py:161} INFO - Started process (PID=919) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:18:53.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:18:53.632+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:18:53.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:18:53.640+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:18:53.657+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:18:53.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:18:53.667+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:18:53.667+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:18:53.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:19:23.953+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:19:23.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:19:23.956+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:19:23.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:19:23.966+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:19:23.991+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:19:23.990+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:19:24.006+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:19:24.006+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:19:24.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.068 seconds
+[2025-07-27T15:19:54.185+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:19:54.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:19:54.190+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:19:54.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:19:54.201+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:19:54.219+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:19:54.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:19:54.231+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:19:54.231+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:19:54.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.058 seconds
+[2025-07-27T15:20:24.453+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:20:24.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:20:24.455+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:20:24.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:20:24.463+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:20:24.479+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:20:24.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:20:24.489+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:20:24.489+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:20:24.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.046 seconds
+[2025-07-27T15:20:54.726+0000] {processor.py:161} INFO - Started process (PID=947) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:20:54.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:20:54.730+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:20:54.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:20:54.738+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:20:54.755+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:20:54.754+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:20:54.764+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:20:54.764+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:20:54.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:21:25.012+0000] {processor.py:161} INFO - Started process (PID=954) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:21:25.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:21:25.016+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:21:25.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:21:25.024+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:21:25.041+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:21:25.041+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:21:25.052+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:21:25.052+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:21:25.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T15:21:55.324+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:21:55.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:21:55.328+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:21:55.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:21:55.336+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:21:55.353+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:21:55.353+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:21:55.363+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:21:55.363+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:21:55.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T15:22:25.600+0000] {processor.py:161} INFO - Started process (PID=968) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:22:25.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:22:25.603+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:22:25.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:22:25.610+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:22:25.625+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:22:25.625+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:22:25.635+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:22:25.635+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:22:25.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T15:22:55.938+0000] {processor.py:161} INFO - Started process (PID=975) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:22:55.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:22:55.942+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:22:55.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:22:55.950+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:22:55.968+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:22:55.968+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:22:55.979+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:22:55.979+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:22:55.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T15:23:26.253+0000] {processor.py:161} INFO - Started process (PID=981) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:23:26.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:23:26.256+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:23:26.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:23:26.263+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:23:26.278+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:23:26.278+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:23:26.289+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:23:26.288+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:23:26.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.046 seconds
+[2025-07-27T15:23:56.548+0000] {processor.py:161} INFO - Started process (PID=988) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:23:56.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:23:56.551+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:23:56.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:23:56.557+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:23:56.572+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:23:56.572+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:23:56.583+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:23:56.583+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:23:56.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T15:24:26.838+0000] {processor.py:161} INFO - Started process (PID=995) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:24:26.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:24:26.841+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:24:26.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:24:26.847+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:24:26.862+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:24:26.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:24:26.876+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:24:26.875+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:24:26.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:24:57.154+0000] {processor.py:161} INFO - Started process (PID=1008) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:24:57.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:24:57.160+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:24:57.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:24:57.171+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:24:57.189+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:24:57.189+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:24:57.201+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:24:57.201+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:24:57.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.060 seconds
+[2025-07-27T15:25:45.303+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:25:45.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:25:45.309+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:25:45.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:25:45.322+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:25:45.348+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:25:45.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:25:45.364+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:25:45.364+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:25:45.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.076 seconds
+[2025-07-27T15:26:15.583+0000] {processor.py:161} INFO - Started process (PID=1016) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:26:15.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:26:15.587+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:26:15.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:26:15.599+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:26:15.616+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:26:15.616+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:26:15.628+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:26:15.628+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:26:15.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.058 seconds
+[2025-07-27T15:26:45.886+0000] {processor.py:161} INFO - Started process (PID=1023) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:26:45.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:26:45.890+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:26:45.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:26:45.898+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:26:45.913+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:26:45.913+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:26:45.923+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:26:45.923+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:26:45.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T15:27:16.171+0000] {processor.py:161} INFO - Started process (PID=1030) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:27:16.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:27:16.175+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:27:16.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:27:16.182+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:27:16.198+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:27:16.197+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:27:16.208+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:27:16.208+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:27:16.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T15:28:06.793+0000] {processor.py:161} INFO - Started process (PID=1037) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:28:06.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:28:06.796+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:28:06.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:28:06.803+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:28:06.821+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:28:06.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:28:06.832+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:28:06.832+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:28:06.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T15:28:37.119+0000] {processor.py:161} INFO - Started process (PID=1044) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:28:37.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:28:37.121+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:28:37.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:28:37.127+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:28:37.140+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:28:37.140+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:28:37.150+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:28:37.150+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:28:37.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.041 seconds
+[2025-07-27T15:29:07.446+0000] {processor.py:161} INFO - Started process (PID=1051) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:29:07.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:29:07.448+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:29:07.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:29:07.454+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:29:07.469+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:29:07.469+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:29:07.479+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:29:07.479+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:29:07.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.043 seconds
+[2025-07-27T15:29:37.710+0000] {processor.py:161} INFO - Started process (PID=1058) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:29:37.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:29:37.712+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:29:37.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:29:37.718+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:29:37.731+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:29:37.730+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:29:37.740+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:29:37.739+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:29:37.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.038 seconds
+[2025-07-27T15:30:28.353+0000] {processor.py:161} INFO - Started process (PID=1065) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:30:28.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:30:28.356+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:30:28.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:30:28.363+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:30:28.379+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:30:28.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:30:28.390+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:30:28.390+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:30:28.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:30:58.768+0000] {processor.py:161} INFO - Started process (PID=1072) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:30:58.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:30:58.772+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:30:58.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:30:58.780+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:30:58.795+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:30:58.795+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:30:58.807+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:30:58.807+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:30:58.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:31:29.065+0000] {processor.py:161} INFO - Started process (PID=1079) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:31:29.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:31:29.068+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:31:29.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:31:29.076+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:31:29.092+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:31:29.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:31:29.102+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:31:29.102+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:31:29.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:31:59.345+0000] {processor.py:161} INFO - Started process (PID=1086) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:31:59.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:31:59.349+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:31:59.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:31:59.357+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:31:59.373+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:31:59.373+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:31:59.385+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:31:59.385+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:31:59.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T15:32:29.660+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:32:29.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:32:29.663+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:32:29.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:32:29.671+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:32:29.686+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:32:29.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:32:29.696+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:32:29.696+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:32:29.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:32:59.936+0000] {processor.py:161} INFO - Started process (PID=1100) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:32:59.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:32:59.939+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:32:59.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:32:59.947+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:32:59.965+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:32:59.965+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:32:59.976+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:32:59.976+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:32:59.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T15:33:30.240+0000] {processor.py:161} INFO - Started process (PID=1107) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:33:30.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:33:30.243+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:33:30.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:33:30.249+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:33:30.264+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:33:30.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:33:30.275+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:33:30.275+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:33:30.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.044 seconds
+[2025-07-27T15:34:00.510+0000] {processor.py:161} INFO - Started process (PID=1114) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:34:00.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:34:00.514+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:34:00.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:34:00.522+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:34:00.539+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:34:00.538+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:34:00.549+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:34:00.549+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:34:00.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.049 seconds
+[2025-07-27T15:34:30.751+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:34:30.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:34:30.754+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:34:30.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:34:30.763+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:34:30.781+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:34:30.781+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:34:30.791+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:34:30.791+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:34:30.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.051 seconds
+[2025-07-27T15:35:01.038+0000] {processor.py:161} INFO - Started process (PID=1128) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:35:01.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:35:01.041+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:35:01.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:35:01.049+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:35:01.065+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:35:01.065+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:35:01.075+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:35:01.075+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:35:01.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.048 seconds
+[2025-07-27T15:35:31.324+0000] {processor.py:161} INFO - Started process (PID=1135) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:35:31.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:35:31.326+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:35:31.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:35:31.334+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:35:31.350+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:35:31.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:35:31.359+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:35:31.359+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:35:31.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.046 seconds
+[2025-07-27T15:36:01.628+0000] {processor.py:161} INFO - Started process (PID=1142) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:36:01.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:36:01.630+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:36:01.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:36:01.635+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:36:01.647+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:36:01.647+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:36:01.657+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:36:01.657+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:36:01.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.038 seconds
+[2025-07-27T15:36:31.901+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:36:31.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:36:31.905+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:36:31.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:36:31.912+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:36:31.926+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:36:31.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:36:31.936+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:36:31.935+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:36:31.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.045 seconds
+[2025-07-27T15:37:02.205+0000] {processor.py:161} INFO - Started process (PID=1156) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:37:02.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:37:02.208+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:37:02.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:37:02.217+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:37:02.234+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:37:02.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:37:02.244+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:37:02.244+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:37:02.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.050 seconds
+[2025-07-27T15:37:32.463+0000] {processor.py:161} INFO - Started process (PID=1163) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:37:32.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:37:32.465+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:37:32.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:37:32.470+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:37:32.484+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:37:32.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:37:32.493+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:37:32.493+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:37:32.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.038 seconds
+[2025-07-27T15:38:02.717+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:38:02.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:38:02.722+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:38:02.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:38:02.732+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:38:02.745+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:38:02.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:38:02.755+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:38:02.755+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:38:02.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T15:38:32.989+0000] {processor.py:161} INFO - Started process (PID=1183) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:38:32.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:38:32.994+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:38:32.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:38:33.002+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:38:33.020+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:38:33.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:38:33.031+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:38:33.031+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:38:33.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T15:39:03.313+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:39:03.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:39:03.316+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:39:03.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:39:03.324+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:39:03.341+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:39:03.340+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:39:03.353+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:39:03.353+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:39:03.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.053 seconds
+[2025-07-27T15:39:33.621+0000] {processor.py:161} INFO - Started process (PID=1197) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:39:33.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:39:33.624+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:39:33.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:39:33.632+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:39:33.647+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:39:33.647+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:39:33.657+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:39:33.657+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:39:33.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.047 seconds
+[2025-07-27T15:40:03.906+0000] {processor.py:161} INFO - Started process (PID=1204) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:40:03.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:40:03.909+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:40:03.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:40:03.918+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:40:03.935+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:40:03.935+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:40:03.946+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:40:03.946+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:40:03.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.052 seconds
+[2025-07-27T15:40:34.232+0000] {processor.py:161} INFO - Started process (PID=1211) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:40:34.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:40:34.238+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:40:34.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:40:34.253+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:40:34.280+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:40:34.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:40:34.296+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:40:34.296+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:40:34.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.081 seconds
+[2025-07-27T15:41:20.081+0000] {processor.py:161} INFO - Started process (PID=1212) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:41:20.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:41:20.084+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:41:20.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:41:20.094+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:41:20.114+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:41:20.114+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:41:20.126+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:41:20.126+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:41:20.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.059 seconds
+[2025-07-27T15:41:50.433+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:41:50.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:41:50.438+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:41:50.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:41:50.448+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:41:50.471+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:41:50.470+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:41:50.485+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:41:50.485+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:41:50.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.067 seconds
+[2025-07-27T15:42:20.722+0000] {processor.py:161} INFO - Started process (PID=1226) to work on /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:42:20.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_transfer_to_stage.py for tasks to queue
+[2025-07-27T15:42:20.727+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:42:20.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:42:20.738+0000] {processor.py:840} INFO - DAG(s) 'data_extraction_to_snowflake' retrieved from /opt/airflow/dags/etl_transfer_to_stage.py
+[2025-07-27T15:42:20.756+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:42:20.756+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T15:42:20.768+0000] {logging_mixin.py:188} INFO - [2025-07-27T15:42:20.768+0000] {dag.py:3823} INFO - Setting next_dagrun for data_extraction_to_snowflake to 2025-07-27 00:00:00+00:00, run_after=2025-07-28 00:00:00+00:00
+[2025-07-27T15:42:20.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_transfer_to_stage.py took 0.060 seconds

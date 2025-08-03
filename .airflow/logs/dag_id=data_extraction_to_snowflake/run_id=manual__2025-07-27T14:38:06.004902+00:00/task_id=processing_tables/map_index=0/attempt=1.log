@@ -1,0 +1,605 @@
+[2025-07-27T14:38:08.837+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_extraction_to_snowflake.processing_tables manual__2025-07-27T14:38:06.004902+00:00 map_index=0 [queued]>
+[2025-07-27T14:38:08.846+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_extraction_to_snowflake.processing_tables manual__2025-07-27T14:38:06.004902+00:00 map_index=0 [queued]>
+[2025-07-27T14:38:08.847+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-27T14:38:08.859+0000] {taskinstance.py:2191} INFO - Executing <Mapped(_PythonDecoratedOperator): processing_tables> on 2025-07-27 14:38:06.004902+00:00
+[2025-07-27T14:38:08.865+0000] {standard_task_runner.py:60} INFO - Started process 516 to run task
+[2025-07-27T14:38:08.870+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'data_extraction_to_snowflake', 'processing_tables', 'manual__2025-07-27T14:38:06.004902+00:00', '--job-id', '229', '--raw', '--subdir', 'DAGS_FOLDER/etl_transfer_to_stage.py', '--cfg-path', '/tmp/tmpsgd2dm4q', '--map-index', '0']
+[2025-07-27T14:38:08.872+0000] {standard_task_runner.py:88} INFO - Job 229: Subtask processing_tables
+[2025-07-27T14:38:08.918+0000] {task_command.py:423} INFO - Running <TaskInstance: data_extraction_to_snowflake.processing_tables manual__2025-07-27T14:38:06.004902+00:00 map_index=0 [running]> on host ba480c39b9ec
+[2025-07-27T14:38:08.977+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_extraction_to_snowflake' AIRFLOW_CTX_TASK_ID='processing_tables' AIRFLOW_CTX_EXECUTION_DATE='2025-07-27T14:38:06.004902+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-27T14:38:06.004902+00:00'
+[2025-07-27T14:38:08.982+0000] {etl_transfer_to_stage.py:56} INFO - Starting transfer data from table job_info
+[2025-07-27T14:38:08.989+0000] {base.py:83} INFO - Using connection ID 'snowflake' for task execution.
+[2025-07-27T14:38:08.990+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.34
+[2025-07-27T14:38:08.991+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-07-27T14:38:11.006+0000] {cursor.py:1028} INFO - query: [SELECT MAX(ID) FROM raw_job_info]
+[2025-07-27T14:38:11.130+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:11.131+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-07-27T14:38:11.131+0000] {connection.py:718} INFO - closed
+[2025-07-27T14:38:11.213+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-07-27T14:38:11.299+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2025-07-27T14:38:11.317+0000] {base.py:83} INFO - Using connection ID 'snowflake' for task execution.
+[2025-07-27T14:38:11.317+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.34
+[2025-07-27T14:38:11.317+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-07-27T14:38:11.697+0000] {etl_transfer_to_stage.py:95} INFO - Ingesting 288 rows into Snowflake
+[2025-07-27T14:38:11.698+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (1, 1135, 'Lawyer ...]
+[2025-07-27T14:38:12.683+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:12.685+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (2, 1153, 'Lawyer ...]
+[2025-07-27T14:38:13.169+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:13.170+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (3, 205, 'Storekee...]
+[2025-07-27T14:38:13.590+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:13.590+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (4, 1010, 'Storeke...]
+[2025-07-27T14:38:14.083+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:14.083+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (5, 1027, 'Adminis...]
+[2025-07-27T14:38:14.449+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:14.450+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (6, 1099, 'Adminis...]
+[2025-07-27T14:38:14.847+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:14.848+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (7, 429, 'Administ...]
+[2025-07-27T14:38:15.336+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:15.336+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (8, 430, 'Administ...]
+[2025-07-27T14:38:15.848+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:15.849+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (9, 1028, 'Commerc...]
+[2025-07-27T14:38:16.260+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:16.262+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (10, 1062, 'Commer...]
+[2025-07-27T14:38:16.773+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:16.775+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (11, 1100, 'Commer...]
+[2025-07-27T14:38:17.195+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:17.197+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (12, 1265, 'BI Ana...]
+[2025-07-27T14:38:17.695+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:17.696+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (13, 391, 'Contrac...]
+[2025-07-27T14:38:18.130+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:18.131+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (14, 392, 'Contrac...]
+[2025-07-27T14:38:18.536+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:18.537+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (15, 543, 'Develop...]
+[2025-07-27T14:38:18.926+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:18.927+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (16, 544, 'Develop...]
+[2025-07-27T14:38:19.436+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:19.438+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (17, 442, 'Plannin...]
+[2025-07-27T14:38:19.825+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:19.826+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (18, 1070, 'Busine...]
+[2025-07-27T14:38:20.227+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:20.229+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (19, 358, 'Project...]
+[2025-07-27T14:38:20.666+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:20.668+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (20, 359, 'Project...]
+[2025-07-27T14:38:21.175+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:21.178+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (21, 397, 'Quality...]
+[2025-07-27T14:38:21.585+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:21.587+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (22, 1073, 'System...]
+[2025-07-27T14:38:21.996+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:21.996+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (23, 1111, 'System...]
+[2025-07-27T14:38:22.365+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:22.367+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (24, 360, 'Systems...]
+[2025-07-27T14:38:22.853+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:22.855+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (25, 361, 'Systems...]
+[2025-07-27T14:38:23.218+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:23.218+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (26, 362, 'Systems...]
+[2025-07-27T14:38:23.649+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:23.650+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (27, 634, 'Occupat...]
+[2025-07-27T14:38:24.038+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:24.039+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (28, 1034, 'IT Sup...]
+[2025-07-27T14:38:24.469+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:24.470+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (29, 1074, 'IT Sup...]
+[2025-07-27T14:38:24.860+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:24.861+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (30, 331, 'IT Supp...]
+[2025-07-27T14:38:25.268+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:25.269+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (31, 332, 'IT Supp...]
+[2025-07-27T14:38:25.647+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:25.648+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (32, 333, 'IT Supp...]
+[2025-07-27T14:38:26.091+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:26.093+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (33, 636, 'Financi...]
+[2025-07-27T14:38:26.511+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:26.512+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (34, 637, 'Financi...]
+[2025-07-27T14:38:27.010+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:27.011+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (35, 551, 'Busines...]
+[2025-07-27T14:38:27.429+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:27.430+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (36, 552, 'Busines...]
+[2025-07-27T14:38:27.835+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:27.836+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (37, 553, 'Busines...]
+[2025-07-27T14:38:28.240+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:28.242+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (38, 608, 'Personn...]
+[2025-07-27T14:38:28.880+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:28.881+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (39, 609, 'Personn...]
+[2025-07-27T14:38:29.276+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:29.277+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (40, 610, 'Personn...]
+[2025-07-27T14:38:29.726+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:29.727+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (41, 638, 'Market ...]
+[2025-07-27T14:38:30.165+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:30.165+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (42, 640, 'Market ...]
+[2025-07-27T14:38:30.560+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:30.560+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (43, 639, 'Market ...]
+[2025-07-27T14:38:30.940+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:30.942+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (44, 1064, 'Commun...]
+[2025-07-27T14:38:31.771+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:31.773+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (45, 1102, 'Commun...]
+[2025-07-27T14:38:32.169+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:32.170+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (46, 1136, 'Commun...]
+[2025-07-27T14:38:32.594+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:32.596+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (47, 1108, 'Busine...]
+[2025-07-27T14:38:32.982+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:32.983+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (48, 1031, 'IT Inf...]
+[2025-07-27T14:38:33.363+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:33.364+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (49, 1068, 'IT Inf...]
+[2025-07-27T14:38:33.871+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:33.873+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (50, 1139, 'Planni...]
+[2025-07-27T14:38:34.282+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:34.284+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (51, 14, 'Administ...]
+[2025-07-27T14:38:34.690+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:34.692+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (52, 20, 'Administ...]
+[2025-07-27T14:38:35.205+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:35.209+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (53, 15, 'Operatio...]
+[2025-07-27T14:38:35.610+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:35.611+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (54, 24, 'Operatio...]
+[2025-07-27T14:38:36.021+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:36.022+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (55, 53, 'Technica...]
+[2025-07-27T14:38:36.429+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:36.430+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (56, 54, 'Technica...]
+[2025-07-27T14:38:36.837+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:36.838+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (57, 55, 'Technica...]
+[2025-07-27T14:38:37.250+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:37.252+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (58, 1032, 'Busine...]
+[2025-07-27T14:38:37.698+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:37.699+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (59, 582, 'Adminis...]
+[2025-07-27T14:38:38.115+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:38.116+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (60, 1142, 'Archit...]
+[2025-07-27T14:38:38.581+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:38.582+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (61, 1176, 'Archit...]
+[2025-07-27T14:38:39.010+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:39.011+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (62, 230, 'Archite...]
+[2025-07-27T14:38:39.406+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:39.407+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (63, 641, 'Busines...]
+[2025-07-27T14:38:39.915+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:39.917+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (64, 318, 'Quality...]
+[2025-07-27T14:38:40.427+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:40.428+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (65, 335, 'Enginee...]
+[2025-07-27T14:38:40.812+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:40.814+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (66, 510, 'Market ...]
+[2025-07-27T14:38:41.223+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:41.224+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (67, 555, 'Busines...]
+[2025-07-27T14:38:41.754+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:41.755+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (68, 643, 'Personn...]
+[2025-07-27T14:38:42.165+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:42.166+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (69, 515, 'Busines...]
+[2025-07-27T14:38:42.679+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:42.682+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (70, 1018, 'Busine...]
+[2025-07-27T14:38:43.086+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:43.088+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (71, 468, 'Academi...]
+[2025-07-27T14:38:43.598+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:43.598+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (72, 1012, 'Academ...]
+[2025-07-27T14:38:44.030+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:44.031+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (73, 419, 'Adminis...]
+[2025-07-27T14:38:44.420+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:44.422+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (74, 399, 'Library...]
+[2025-07-27T14:38:44.831+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:44.834+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (75, 1011, 'Librar...]
+[2025-07-27T14:38:45.235+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:45.236+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (76, 320, 'Purchas...]
+[2025-07-27T14:38:45.716+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:45.717+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (77, 1016, 'Purcha...]
+[2025-07-27T14:38:46.191+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:46.192+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (78, 336, 'Innovat...]
+[2025-07-27T14:38:46.578+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:46.579+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (79, 400, 'Treasur...]
+[2025-07-27T14:38:47.082+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:47.084+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (80, 337, 'Operati...]
+[2025-07-27T14:38:47.503+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:47.504+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (81, 558, 'Researc...]
+[2025-07-27T14:38:48.003+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:48.006+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (82, 1037, 'Social...]
+[2025-07-27T14:38:48.406+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:48.406+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (83, 1077, 'Social...]
+[2025-07-27T14:38:48.856+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:48.857+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (84, 432, 'Telemar...]
+[2025-07-27T14:38:49.230+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:49.231+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (85, 40, 'Administ...]
+[2025-07-27T14:38:49.631+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:49.633+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (86, 5, 'Operation...]
+[2025-07-27T14:38:50.150+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:50.151+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (87, 370, 'Adminis...]
+[2025-07-27T14:38:50.666+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:50.668+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (88, 1002, 'Admini...]
+[2025-07-27T14:38:51.075+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:51.076+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (89, 339, 'Discipl...]
+[2025-07-27T14:38:51.484+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:51.486+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (90, 1003, 'Discip...]
+[2025-07-27T14:38:51.891+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:51.892+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (91, 371, 'Laborat...]
+[2025-07-27T14:38:52.303+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:52.303+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (92, 1004, 'Labora...]
+[2025-07-27T14:38:52.764+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:52.765+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (93, 340, 'Mainten...]
+[2025-07-27T14:38:53.223+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:53.223+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (94, 1005, 'Mainte...]
+[2025-07-27T14:38:53.635+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:53.637+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (95, 1038, 'Librar...]
+[2025-07-27T14:38:54.053+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:54.054+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (96, 1078, 'Librar...]
+[2025-07-27T14:38:54.457+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:54.459+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (97, 268, 'Librari...]
+[2025-07-27T14:38:54.865+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:54.867+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (98, 1039, 'Buyer ...]
+[2025-07-27T14:38:55.271+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:55.272+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (99, 1079, 'Buyer ...]
+[2025-07-27T14:38:55.655+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:55.741+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (100, 1117, 'Buyer...]
+[2025-07-27T14:38:56.120+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:56.121+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (101, 234, 'Buyer ...]
+[2025-07-27T14:38:56.572+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:56.573+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (102, 215, 'Consul...]
+[2025-07-27T14:38:57.016+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:57.018+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (103, 1118, 'Consu...]
+[2025-07-27T14:38:57.527+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:57.528+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (104, 235, 'Consul...]
+[2025-07-27T14:38:57.919+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:57.921+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (105, 1143, 'Consu...]
+[2025-07-27T14:38:58.315+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:58.317+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (106, 242, 'Consul...]
+[2025-07-27T14:38:58.719+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:58.720+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (107, 1177, 'Consu...]
+[2025-07-27T14:38:59.166+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:59.168+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (108, 30, 'Technic...]
+[2025-07-27T14:38:59.562+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:38:59.564+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (109, 649, 'Busine...]
+[2025-07-27T14:39:00.190+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:00.191+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (110, 133, 'Admini...]
+[2025-07-27T14:39:00.545+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:00.546+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (111, 1271, 'Proce...]
+[2025-07-27T14:39:00.964+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:00.965+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (112, 1269, 'Proce...]
+[2025-07-27T14:39:01.368+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:01.368+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (113, 1199, 'Proce...]
+[2025-07-27T14:39:01.800+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:01.801+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (114, 1159, 'Busin...]
+[2025-07-27T14:39:02.194+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:02.195+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (115, 1180, 'Admin...]
+[2025-07-27T14:39:02.600+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:02.601+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (116, 469, 'Busine...]
+[2025-07-27T14:39:02.969+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:02.970+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (117, 1080, 'Custo...]
+[2025-07-27T14:39:03.384+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:03.385+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (118, 341, 'Purcha...]
+[2025-07-27T14:39:03.769+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:03.769+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (119, 342, 'Course...]
+[2025-07-27T14:39:04.180+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:04.182+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (120, 1119, 'Cours...]
+[2025-07-27T14:39:04.698+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:04.703+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (121, 373, 'Course...]
+[2025-07-27T14:39:05.204+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:05.206+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (122, 1144, 'Cours...]
+[2025-07-27T14:39:05.719+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:05.721+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (123, 404, 'Course...]
+[2025-07-27T14:39:06.231+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:06.235+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (124, 1156, 'Cours...]
+[2025-07-27T14:39:06.617+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:06.618+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (125, 1120, 'Busin...]
+[2025-07-27T14:39:07.148+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:07.149+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (126, 1157, 'Busin...]
+[2025-07-27T14:39:07.557+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:07.558+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (127, 345, 'Pedago...]
+[2025-07-27T14:39:07.968+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:07.968+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (128, 1283, 'Pedag...]
+[2025-07-27T14:39:08.381+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:08.383+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (129, 650, 'Pedago...]
+[2025-07-27T14:39:08.789+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:08.791+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (130, 1261, 'Devel...]
+[2025-07-27T14:39:09.300+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:09.300+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (131, 1262, 'Devel...]
+[2025-07-27T14:39:09.708+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:09.709+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (132, 1263, 'Devel...]
+[2025-07-27T14:39:10.172+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:10.172+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (133, 1081, 'Desig...]
+[2025-07-27T14:39:10.568+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:10.569+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (134, 1121, 'Desig...]
+[2025-07-27T14:39:11.042+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:11.043+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (135, 218, 'Design...]
+[2025-07-27T14:39:11.555+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:11.556+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (136, 1281, 'Execu...]
+[2025-07-27T14:39:11.996+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:11.997+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (137, 1274, 'Execu...]
+[2025-07-27T14:39:12.408+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:12.410+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (138, 1273, 'Gener...]
+[2025-07-27T14:39:12.805+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:12.805+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (139, 569, 'Junior...]
+[2025-07-27T14:39:13.258+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:13.258+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (140, 1162, 'Engin...]
+[2025-07-27T14:39:13.674+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:13.676+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (141, 1191, 'Engin...]
+[2025-07-27T14:39:14.083+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:14.084+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (142, 1202, 'Engin...]
+[2025-07-27T14:39:14.528+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:14.531+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (143, 244, 'Engine...]
+[2025-07-27T14:39:14.943+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:14.944+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (144, 245, 'Engine...]
+[2025-07-27T14:39:15.399+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:15.400+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (145, 1169, 'Quali...]
+[2025-07-27T14:39:15.867+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:15.867+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (146, 1260, 'IT Sp...]
+[2025-07-27T14:39:16.465+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:16.466+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (147, 261, 'Specia...]
+[2025-07-27T14:39:16.834+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:16.836+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (148, 1125, 'Speci...]
+[2025-07-27T14:39:17.392+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:17.394+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (149, 267, 'Specia...]
+[2025-07-27T14:39:17.800+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:17.802+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (150, 1170, 'Speci...]
+[2025-07-27T14:39:18.209+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:18.210+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (151, 272, 'Specia...]
+[2025-07-27T14:39:18.621+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:18.622+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (152, 1203, 'Speci...]
+[2025-07-27T14:39:18.988+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:18.989+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (153, 1257, 'Speci...]
+[2025-07-27T14:39:19.379+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:19.379+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (154, 997, 'High S...]
+[2025-07-27T14:39:19.848+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:19.849+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (155, 2002, 'Under...]
+[2025-07-27T14:39:20.254+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:20.255+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (156, 998, 'Techni...]
+[2025-07-27T14:39:20.669+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:20.670+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (157, 2001, 'Techn...]
+[2025-07-27T14:39:21.122+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:21.123+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (158, 2003, 'Gradu...]
+[2025-07-27T14:39:21.587+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:21.588+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (159, 999, 'Underg...]
+[2025-07-27T14:39:22.000+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:22.002+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (160, 995, 'Unpaid...]
+[2025-07-27T14:39:22.405+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:22.406+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (161, 207, 'Examin...]
+[2025-07-27T14:39:22.795+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:22.796+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (162, 1195, 'Busin...]
+[2025-07-27T14:39:23.175+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:23.175+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (163, 1213, 'Busin...]
+[2025-07-27T14:39:23.632+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:23.633+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (164, 37, 'Operati...]
+[2025-07-27T14:39:24.078+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:24.079+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (165, 32, 'Busines...]
+[2025-07-27T14:39:24.542+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:24.544+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (166, 521, 'Techno...]
+[2025-07-27T14:39:24.920+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:24.921+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (167, 573, 'Sustai...]
+[2025-07-27T14:39:25.305+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:25.307+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (168, 661, 'Busine...]
+[2025-07-27T14:39:25.683+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:25.683+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (169, 662, 'Busine...]
+[2025-07-27T14:39:26.167+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:26.168+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (170, 663, 'Busine...]
+[2025-07-27T14:39:26.569+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:26.570+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (171, 1194, 'Busin...]
+[2025-07-27T14:39:27.081+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:27.081+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (172, 1208, 'Busin...]
+[2025-07-27T14:39:27.542+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:27.543+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (173, 1224, 'Busin...]
+[2025-07-27T14:39:27.941+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:27.942+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (174, 379, 'Proces...]
+[2025-07-27T14:39:28.440+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:28.441+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (175, 664, 'Progra...]
+[2025-07-27T14:39:28.836+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:28.837+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (176, 1215, 'Progr...]
+[2025-07-27T14:39:29.228+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:29.229+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (177, 1216, 'Relat...]
+[2025-07-27T14:39:29.676+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:29.678+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (178, 710, 'Busine...]
+[2025-07-27T14:39:30.156+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:30.157+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (179, 314, 'Unit M...]
+[2025-07-27T14:39:30.598+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:30.599+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (180, 1217, 'Unit ...]
+[2025-07-27T14:39:31.009+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:31.010+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (181, 323, 'Unit M...]
+[2025-07-27T14:39:31.786+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:31.788+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (182, 1231, 'Unit ...]
+[2025-07-27T14:39:32.159+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:32.160+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (183, 1239, 'Execu...]
+[2025-07-27T14:39:32.578+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:32.579+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (184, 1299, 'Profe...]
+[2025-07-27T14:39:33.012+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:33.013+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (185, 1300, 'Profe...]
+[2025-07-27T14:39:33.468+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:33.470+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (186, 1301, 'Profe...]
+[2025-07-27T14:39:33.977+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:33.977+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (187, 11, 'Instruc...]
+[2025-07-27T14:39:34.471+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:34.472+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (188, 220, 'Instru...]
+[2025-07-27T14:39:34.870+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:34.872+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (189, 1045, 'Instr...]
+[2025-07-27T14:39:35.309+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:35.310+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (190, 16, 'Instruc...]
+[2025-07-27T14:39:35.717+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:35.717+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (191, 237, 'Instru...]
+[2025-07-27T14:39:36.233+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:36.235+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (192, 1089, 'Instr...]
+[2025-07-27T14:39:36.641+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:36.642+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (193, 127, 'Hourly...]
+[2025-07-27T14:39:37.155+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:37.157+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (194, 250, 'Instru...]
+[2025-07-27T14:39:37.663+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:37.665+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (195, 1128, 'Instr...]
+[2025-07-27T14:39:38.175+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:38.175+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (196, 713, 'Proces...]
+[2025-07-27T14:39:38.685+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:38.686+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (197, 1171, 'Proce...]
+[2025-07-27T14:39:39.096+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:39.096+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (198, 251, 'Techni...]
+[2025-07-27T14:39:39.608+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:39.609+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (199, 1172, 'Techn...]
+[2025-07-27T14:39:40.011+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:40.103+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (200, 693, 'Occupa...]
+[2025-07-27T14:39:40.572+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:40.573+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (201, 1292, 'Monit...]
+[2025-07-27T14:39:41.288+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:41.289+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (202, 204, 'Driver...]
+[2025-07-27T14:39:41.701+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:41.702+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (203, 668, 'Driver...]
+[2025-07-27T14:39:42.144+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:42.145+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (204, 1008, 'Drive...]
+[2025-07-27T14:39:42.576+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:42.577+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (205, 1013, 'Drive...]
+[2025-07-27T14:39:43.016+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:43.018+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (206, 1048, 'Pedag...]
+[2025-07-27T14:39:43.385+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:43.386+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (207, 1091, 'Pedag...]
+[2025-07-27T14:39:43.833+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:43.834+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (208, 1129, 'Pedag...]
+[2025-07-27T14:39:44.270+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:44.271+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (209, 221, 'Pedago...]
+[2025-07-27T14:39:44.698+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:44.699+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (210, 222, 'Pedago...]
+[2025-07-27T14:39:45.105+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:45.107+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (211, 1173, 'Resea...]
+[2025-07-27T14:39:45.571+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:45.572+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (212, 1196, 'Resea...]
+[2025-07-27T14:39:45.943+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:45.944+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (213, 1220, 'Resea...]
+[2025-07-27T14:39:46.347+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:46.349+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (214, 1233, 'Resea...]
+[2025-07-27T14:39:46.744+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:46.744+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (215, 1049, 'Audio...]
+[2025-07-27T14:39:47.141+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:47.142+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (216, 1130, 'Audio...]
+[2025-07-27T14:39:47.546+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:47.547+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (217, 684, 'Techni...]
+[2025-07-27T14:39:47.979+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:47.980+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (218, 287, 'Adjunc...]
+[2025-07-27T14:39:48.352+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:48.353+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (219, 1221, 'Adjun...]
+[2025-07-27T14:39:48.737+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:48.738+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (220, 316, 'Assist...]
+[2025-07-27T14:39:49.218+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:49.218+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (221, 1197, 'Assis...]
+[2025-07-27T14:39:49.623+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:49.624+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (222, 595, 'Associ...]
+[2025-07-27T14:39:50.029+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:50.031+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (223, 1234, 'Assoc...]
+[2025-07-27T14:39:50.435+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:50.436+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (224, 293, 'Auxili...]
+[2025-07-27T14:39:50.867+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:50.867+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (225, 1149, 'Auxil...]
+[2025-07-27T14:39:51.219+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:51.219+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (226, 123, 'Hourly...]
+[2025-07-27T14:39:51.613+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:51.615+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (227, 124, 'Hourly...]
+[2025-07-27T14:39:52.052+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:52.057+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (228, 482, 'Techni...]
+[2025-07-27T14:39:52.470+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:52.472+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (229, 1242, 'Full ...]
+[2025-07-27T14:39:52.836+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:52.836+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (230, 225, 'Progra...]
+[2025-07-27T14:39:53.226+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:53.226+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (231, 674, 'Progra...]
+[2025-07-27T14:39:53.627+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:53.629+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (232, 1020, 'Progr...]
+[2025-07-27T14:39:54.036+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:54.036+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (233, 1050, 'Progr...]
+[2025-07-27T14:39:54.410+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:54.412+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (234, 1222, 'Pro-R...]
+[2025-07-27T14:39:54.795+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:54.797+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (235, 240, 'Psycho...]
+[2025-07-27T14:39:55.182+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:55.184+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (236, 241, 'Psycho...]
+[2025-07-27T14:39:55.682+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:55.683+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (237, 1151, 'Educa...]
+[2025-07-27T14:39:56.071+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:56.072+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (238, 1252, 'Educa...]
+[2025-07-27T14:39:56.502+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:56.502+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (239, 253, 'Recept...]
+[2025-07-27T14:39:56.889+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:56.890+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (240, 1051, 'Scrip...]
+[2025-07-27T14:39:57.295+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:57.296+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (241, 211, 'Secret...]
+[2025-07-27T14:39:57.715+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:57.716+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (242, 1052, 'Secre...]
+[2025-07-27T14:39:58.159+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:58.160+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (243, 1152, 'Execu...]
+[2025-07-27T14:39:58.596+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:58.597+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (244, 9, 'Secretar...]
+[2025-07-27T14:39:59.021+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:59.022+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (245, 1053, 'Acade...]
+[2025-07-27T14:39:59.409+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:59.410+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (246, 1134, 'Acade...]
+[2025-07-27T14:39:59.859+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:39:59.860+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (247, 386, 'Academ...]
+[2025-07-27T14:40:00.282+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:00.283+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (248, 387, 'Academ...]
+[2025-07-27T14:40:00.777+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:00.779+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (249, 388, 'Academ...]
+[2025-07-27T14:40:01.168+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:01.169+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (250, 1275, 'Execu...]
+[2025-07-27T14:40:01.587+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:01.589+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (251, 1276, 'Execu...]
+[2025-07-27T14:40:01.957+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:01.957+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (252, 25, 'Adminis...]
+[2025-07-27T14:40:02.365+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:02.366+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (253, 1058, 'Occup...]
+[2025-07-27T14:40:02.725+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:02.727+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (254, 1025, 'Secur...]
+[2025-07-27T14:40:03.256+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:03.256+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (255, 56, 'Laborat...]
+[2025-07-27T14:40:03.672+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:03.673+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (256, 57, 'Laborat...]
+[2025-07-27T14:40:04.155+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:04.156+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (257, 6, 'Administ...]
+[2025-07-27T14:40:04.540+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:04.542+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (258, 58, 'Special...]
+[2025-07-27T14:40:04.971+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:04.972+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (259, 8, 'Operatio...]
+[2025-07-27T14:40:05.383+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:05.385+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (260, 326, 'Nursin...]
+[2025-07-27T14:40:05.847+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:05.851+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (261, 349, 'IT Tec...]
+[2025-07-27T14:40:06.201+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:06.202+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (262, 1023, 'IT Te...]
+[2025-07-27T14:40:06.599+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:06.600+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (263, 1258, 'IT Te...]
+[2025-07-27T14:40:06.970+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:06.971+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (264, 1259, 'IT Te...]
+[2025-07-27T14:40:07.447+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:07.448+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (265, 350, 'Labora...]
+[2025-07-27T14:40:07.888+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:07.893+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (266, 1055, 'Labor...]
+[2025-07-27T14:40:08.385+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:08.387+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (267, 1096, 'Labor...]
+[2025-07-27T14:40:08.792+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:08.793+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (268, 327, 'Mainte...]
+[2025-07-27T14:40:09.200+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:09.202+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (269, 678, 'Mainte...]
+[2025-07-27T14:40:09.589+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:09.590+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (270, 1014, 'Maint...]
+[2025-07-27T14:40:10.124+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:10.124+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (271, 679, 'Mainte...]
+[2025-07-27T14:40:10.537+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:10.539+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (272, 1024, 'Maint...]
+[2025-07-27T14:40:11.095+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:11.095+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (273, 680, 'Mainte...]
+[2025-07-27T14:40:11.459+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:11.460+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (274, 1056, 'Maint...]
+[2025-07-27T14:40:11.877+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:11.879+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (275, 580, 'Planni...]
+[2025-07-27T14:40:12.262+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:12.263+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (276, 1057, 'Plann...]
+[2025-07-27T14:40:12.685+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:12.687+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (277, 694, 'Buildi...]
+[2025-07-27T14:40:13.151+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:13.152+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (278, 389, 'Specia...]
+[2025-07-27T14:40:13.573+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:13.574+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (279, 1015, 'Speci...]
+[2025-07-27T14:40:14.019+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:14.024+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (280, 409, 'Specia...]
+[2025-07-27T14:40:14.377+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:14.377+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (281, 1026, 'Speci...]
+[2025-07-27T14:40:14.939+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:14.940+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (282, 427, 'Specia...]
+[2025-07-27T14:40:15.367+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:15.368+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (283, 1059, 'Speci...]
+[2025-07-27T14:40:15.857+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:15.857+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (284, 527, 'Occupa...]
+[2025-07-27T14:40:16.239+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:16.241+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (285, 3, 'Telephon...]
+[2025-07-27T14:40:16.782+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:16.784+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (286, 227, 'Teleph...]
+[2025-07-27T14:40:17.292+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:17.294+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (287, 682, 'Traine...]
+[2025-07-27T14:40:17.725+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:17.726+0000] {cursor.py:1028} INFO - query: [INSERT INTO raw_job_info (id, job_title_id, job_title) VALUES (288, 228, 'Web De...]
+[2025-07-27T14:40:18.112+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-27T14:40:18.113+0000] {connection.py:718} INFO - closed
+[2025-07-27T14:40:18.198+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-07-27T14:40:18.291+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-27T14:40:18.312+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=data_extraction_to_snowflake, task_id=processing_tables, map_index=0, execution_date=20250727T143806, start_date=20250727T143808, end_date=20250727T144018
+[2025-07-27T14:40:18.348+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-27T14:40:18.359+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
