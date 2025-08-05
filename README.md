@@ -30,6 +30,7 @@ Estrutura das tabelas construidas no Snowflake.
 Linhagem dos dados passando pelas camadas bronze, silver e gold.
 ![Dbt](assets/dbt_1.png)
 
+Documentação desenvolvida ao final do processamento do dbt.
 ![Dbt](assets/dbt_2.png)
 
 ---
